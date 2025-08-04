@@ -1,0 +1,12 @@
+# Ignore .env file (for sensitive data like API keys, passwords, etc.)
+.env
+
+# Ignore __pycache__ in the views folder
+views/__pycache__/
+
+# Ignore Python bytecode in general
+__pycache__/
+*.pyc
+
+# Ignore VS Code specific files
+.vscode/
